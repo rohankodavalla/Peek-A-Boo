@@ -6,13 +6,13 @@ In this assignment, you will gain experience with the Python programming languag
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Game Overview
+**Game Overview**
 
 The game displays a square grid with columns labeled by letters and rows by numbers. The grid contains pairs of integers hidden behind 'X' symbols. The player's goal is to find the hidden pairs with the fewest guesses possible. A simple menu allows interaction with the game.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Features
+**Features**
 
 - **Grid Display**: Columns are labeled with letters (e.g., A, B, C) and rows with numbers (e.g., 0, 1, 2).
 - **Hidden Numbers**: The grid initially displays 'X' symbols, hiding the numbers.
@@ -25,7 +25,7 @@ The game displays a square grid with columns labeled by letters and rows by numb
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Gameplay
+**Gameplay**
 
 1. **Initialization**: The grid is initialized with pairs of integers randomly distributed.
 2. **Guessing**: Players select cells to reveal their contents. If a pair is not matched, the cells are hidden again after 2 seconds. Matched pairs remain visible.
@@ -34,7 +34,7 @@ The game displays a square grid with columns labeled by letters and rows by numb
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Score Calculation
+**Score Calculation**
 
 The score is a number between 0 and 100, calculated as:
 
@@ -45,11 +45,11 @@ The score is a number between 0 and 100, calculated as:
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Grid Sizes
+**Grid Sizes**
 
 The game can be played with a 2x2, 4x4, or 6x6 grid, specified as a command-line argument.
 
-## Error Checking
+**Error Checking**
 
 1. **Command Line Argument**: Ensure a valid grid size (2, 4, or 6) is specified.
 2. **Menu Option Selection**: Must be a number between 1 and 5.
@@ -57,7 +57,7 @@ The game can be played with a 2x2, 4x4, or 6x6 grid, specified as a command-line
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Usage
+**Usage**
 
 -  python peek_a_boo.py [grid_size]
    grid_size: Size of the grid (2, 4, or 6).
