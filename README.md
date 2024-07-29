@@ -2,7 +2,7 @@
 
 **Description:**
 
-In this assignment, you will gain experience with the Python programming language, a dynamically typed, easy-to-use, Object-Oriented language. You will develop a simple console-based game to test players' memory using basic objects and various Python data structures.
+Developing a simple console-based game to test players' memory using basic objects and various Python data structures.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
